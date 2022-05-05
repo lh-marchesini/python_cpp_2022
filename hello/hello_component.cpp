@@ -1,5 +1,4 @@
 #include <pybind11/pybind11.h>
-#include <python3.7/Python.h>
 
 char version[]="1.0";
 
