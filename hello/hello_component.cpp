@@ -17,7 +17,7 @@ char const* ca_marche() {
 namespace py = pybind11;
 
 
-PYBIND11_MODULE(hello_component,greetings)
+PYBIND11_MODULE(hello_component,greetings, ca_marche)
 {
   greetings.doc() = "greeting_object 1.0";
   
