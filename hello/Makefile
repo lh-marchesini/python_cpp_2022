@@ -1,5 +1,5 @@
-CPPFLAGS += -I /usr/include/python3.7m
-LIBS=-lpython3.7m
+CPPFLAGS += -I /usr/include/python3.9
+LIBS=-lpython3.9
 
 COMPOSANT = hello_component
 
